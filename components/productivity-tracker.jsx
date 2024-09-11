@@ -101,7 +101,8 @@ export function ProductivityTracker() {
                 min="0"
                 step="0.5" />
             </div>
-            <Button type="submit">Add Activity</Button>
+            <Button type="submit" className="bg-red-500 text-white hover:bg-red-600">Add Activity</Button>
+
           </form>
         </CardContent>
       </Card>
